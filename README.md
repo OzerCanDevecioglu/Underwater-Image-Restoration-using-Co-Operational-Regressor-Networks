@@ -15,24 +15,17 @@ The exploration of underwater environments is essential for applications such as
 ## Run
 
 #### Train
-- Download train data to the "mats/" folder
+- Download train data to the "train_set/" and "val_set/" folder. Split them as Clean and Corrupted
 - Start training
 ```http
-  python CoReNet.py
+  python corenet.py
 ```
-- Start evaluation. You can download Pre-trained Network [weights]()
-```http
-  python test.py
-```
-- Save outputs to the "test_outputs/" folder 
-- Visualize Results
-```http
-  python plot_outputs.py
-```
+
 ## Prerequisites
 - Pyton 3
 - Pytorch
-- [FastONN](https://github.com/junaidmalik09/fastonn) 
+- [FastONN](https://github.com/junaidmalik09/fastonn)
+- [FFL](https://github.com/EndlessSora/focal-frequency-loss)
 
 
   
